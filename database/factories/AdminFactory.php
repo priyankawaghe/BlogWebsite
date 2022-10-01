@@ -17,8 +17,8 @@ class AdminFactory extends Factory
     {
         return [
          
-                'username' => $this->faker->name,              
-                'password' => bcrypt('123456'), // password  
+                'username' => 'admin',              
+                'password' => '123456', // password  
         ];
     }
 }
