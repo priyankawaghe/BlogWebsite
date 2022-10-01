@@ -8,13 +8,24 @@ A simple blog website for post articles purpose. Based on Laravel 8.
 
 # Installation
 
-git clone  https://github.com/priyankawaghe/BlogWebsite.git 
-cd BlogWebsite
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
+Clone the repository-
+1.  git clone  https://github.com/priyankawaghe/BlogWebsite.git 
+  
+Then cd into the folder with this command-
+2. cd BlogWebsite
+
+Then do a composer install
+3. composer install
+4. 
+Then edit .env file with appropriate credential for your database server. Just edit these  parameter(DB_DATABASE,
+DB_USERNAME)
+ 4.env file name = env.example .env
+ 
+5.php artisan key:generate
+.
+Then create a database named blog and then do a database migration using this command-
+6. php artisan migrate
+7. php artisan db:seed
 
 # Run server
 Run server using this command-
